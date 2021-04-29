@@ -42,19 +42,24 @@ const Typeahead = ({ fruitProps }) => {
     );
   };
   return (
-    <div className="container">
-      <input
-        className="search"
-        type="text"
-        placeholder="Enter your favorite fruit here"
-        value={favoriteFruit}
-        onChange={handleChange}
-      />
+    <>
+      <div>
+        <h1 className="title">Sesame FrontEnd Challenge</h1>
+      </div>
+      <div className="container">
+        <input
+          className="search"
+          type="text"
+          placeholder="Enter your favorite fruit here"
+          value={favoriteFruit}
+          onChange={handleChange}
+        />
 
-      {favoriteFruit && (
-        <div className="searchcontainer">{getSuggestions()}</div>
-      )}
-    </div>
+        {favoriteFruit && (
+          <div className="searchcontainer">{getSuggestions()}</div>
+        )}
+      </div>
+    </>
   );
 };
 export default Typeahead;
