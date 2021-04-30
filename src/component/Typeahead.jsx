@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Typeahead.css";
+import { cyInputBar, cyListSuggestedFruits } from "../handles/index.js";
 
 const Typeahead = ({ fruitProps }) => {
   const [favoriteFruit, setFavoriteFruit] = useState("");
@@ -33,7 +34,12 @@ const Typeahead = ({ fruitProps }) => {
         {autocomplete.map((item, index) => {
           return (
             <div key={index}>
-              <li onClick={() => suggestedFruit(item)}>{item}</li>
+              <li
+                data-cy={cyListSuggestedFruits}
+                onClick={() => suggestedFruit(item)}
+              >
+                {item}
+              </li>
               {index !== autocomplete.length - 1}
             </div>
           );
@@ -48,6 +54,7 @@ const Typeahead = ({ fruitProps }) => {
       </div>
       <div className="wrapper">
         <input
+          data-cy={cyInputBar}
           className="search"
           type="text"
           placeholder="Enter your favorite fruit here"
