@@ -46,7 +46,7 @@ const Typeahead = ({ fruitProps }) => {
       <div>
         <h1 className="title">Sesame FrontEnd Challenge</h1>
       </div>
-      <div className="container">
+      <div className="wrapper">
         <input
           className="search"
           type="text"

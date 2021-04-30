@@ -1,38 +1,53 @@
 .container {
   background: #7c95c6;
-  height: 100vh;
-  padding-top: 10px;
+  display: block;
+  border-radius: 10px;
+  padding-left: 96px;
+  padding-top: 88px;
+  overflow-y: auto;
+  padding: 32px;
+  min-height: calc(100vh - 50px);
 }
 
 .title {
-  padding-left: 80px;
+  padding-left: 46px;
 }
 
 .searchcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  width: 474px;
+  margin-top: 16px;
   background: #7c95c6;
-  width: 50%;
   border-radius: 10px;
 }
 
 .search {
   font-size: 16px;
   box-sizing: border-box;
-  width: 50%;
+  width: 442px;
   padding: 16px;
+  margin-left: 40px;
   border: 1px solid lightblue;
   border-radius: 10px;
 }
 
 ul {
   list-style: none;
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  
 }
 
 ul li {
   cursor: pointer;
   border-bottom: 1px solid black;
   padding: 5px;
+  background: #7c95c6;
 }
 
 li:hover {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.482);
 }
