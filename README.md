@@ -16,7 +16,7 @@ Sesame-Challenge was built using ReactJS and CSS and Cypress for integration tes
 1. Open a bash terminal or any other type of terminal and navigate to the project directory (Be sure there is no instance of the server or another server already running)
 
 2. Run:
-   `npm install`
+   `npm install` then
    `npm start`
    
   
