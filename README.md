@@ -18,7 +18,8 @@ Sesame-Challenge was built using ReactJS and CSS and Cypress for integration tes
 2. Run:
    `npm install`
    `npm start`
-   open http://localhost:3000/index.html in the browser
+   
+  
 
 3. Test:
    `npm test`
