@@ -1,4 +1,4 @@
-const fruitList = [
+export const fruitList = [
   "Açaí",
   "Apple",
   "Akee",

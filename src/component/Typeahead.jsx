@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Typeahead.css";
 import { cyInputBar, cyListSuggestedFruits } from "../handles/index.js";
-
-const Typeahead = ({ fruitProps }) => {
+import fruitList from "../fruitList";
+const Typeahead = () => {
+  const fruitProps = fruitList;
   const [favoriteFruit, setFavoriteFruit] = useState("");
   const [autocomplete, setAutocomplete] = useState([]);
   const [resfound, setResfound] = useState(true);
