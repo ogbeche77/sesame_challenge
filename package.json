@@ -20,8 +20,8 @@
     "cy:run": "cypress run"
   },
   "eslintConfig": {
-    "extends": "react-app",
-      "plugin":"cypress/recommended"
+    "extends": "react-app"
+      
     
   },
   "browserslist": {
