@@ -51,7 +51,7 @@ const Typeahead = () => {
   return (
     <>
       <div>
-        <h1 className="title">Sesame FrontEnd Challenge</h1>
+        <h1 className="title">Type Ahead Component</h1>
       </div>
       <div className="wrapper">
         <input
