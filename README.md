@@ -1,11 +1,8 @@
-
-
-
-
 ![Screenshot 2021-05-08 at 11 55 50](https://user-images.githubusercontent.com/59567201/117535101-72553580-aff4-11eb-9d42-b4781c76f1cf.png)
+
 # Project Name
 
-> Sesame-Challenge
+> Typeahead
 
 ## Table of contents
 
@@ -14,7 +11,7 @@
 
 ## General info
 
-Sesame-Challenge was built using ReactJS and CSS and Cypress for integration testing
+Typeahead was built using ReactJS and CSS and Cypress for integration testing
 
 ## How to run the app
 
@@ -23,10 +20,8 @@ Sesame-Challenge was built using ReactJS and CSS and Cypress for integration tes
 2. Run:
    `npm install` then
    `npm start`
-   
-  
 
 3. Test:
    `npm test`
-   
+
    To experience the automated testing on a browser, `npm run cypress:open`
