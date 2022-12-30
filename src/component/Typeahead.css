@@ -13,6 +13,7 @@
   padding-left: 46px;
 }
 
+
 .searchcontainer {
   display: flex;
   flex-direction: column;
@@ -30,7 +31,7 @@
   padding: 16px;
   margin-left: 40px;
   border: 1px solid lightblue;
-  border-radius: 10px;
+ 
 }
 
 ul {
