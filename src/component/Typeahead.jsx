@@ -51,7 +51,7 @@ const Typeahead = () => {
   return (
     <>
       <div>
-        <h1 className="title">Type your fruit of choice</h1>
+        <h1 className="title">Enter your fruit of choice</h1>
       </div>
       <div className="wrapper">
         <input
